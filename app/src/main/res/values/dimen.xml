@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="dp20"> 20.0dp </dimen>
+    <dimen name="dp15"> 15.0dp </dimen>
+    <dimen name="dp10"> 10.0dp </dimen>
+    <dimen name="dp8"> 8.0dp </dimen>
+    <dimen name="px300"> 300.0px </dimen>
+    <dimen name="px450"> 450.0px </dimen>
+</resources>

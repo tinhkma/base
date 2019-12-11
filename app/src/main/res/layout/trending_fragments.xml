@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black_white"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/dp8"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trending"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/dp20"
+                    android:textColor="#ffffff"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp8"
+                    android:text="MOVIES"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/dp10"
+                    android:textColor="#E3F2FD"/>
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_trending"
+                android:layout_marginTop="@dimen/dp8"
+                android:layout_width="match_parent"
+                android:layout_height="600px" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/dp8"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trending"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/dp20"
+                    android:textColor="#ffffff"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp8"
+                    android:text="TV"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/dp10"
+                    android:textColor="#E3F2FD"/>
+            </LinearLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_trending_tv"
+                android:layout_width="match_parent"
+                android:layout_height="600px"
+                android:layout_marginTop="@dimen/dp8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/dp8"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Now playing"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/dp20"
+                    android:textColor="#ffffff"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp8"
+                    android:text="MOVIES"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/dp10"
+                    android:textColor="#E3F2FD"/>
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_trending_persion"
+                android:layout_marginTop="@dimen/dp8"
+                android:layout_width="match_parent"
+                android:layout_height="600px" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
